@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cabbooking"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.cabbooking.MainActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/main_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CabServiceActivity"
+            android:icon="@drawable/hicons" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CustomerActivity"
+            android:icon="@drawable/licons" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CabHomeActivity"
+            android:icon="@drawable/hicons" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CustomerHomeActivity"
+            android:icon="@drawable/hicons" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CabRegisterActivity"
+            android:icon="@drawable/ricons" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CustomerRegisterActivity"
+            android:icon="@drawable/ricons" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.ServiceActivity"
+            android:icon="@drawable/hicons" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CustomerCabBookingActivity"
+            android:label="@string/title_activity_customer_cab_booking" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CustomerViewBookingActivity"
+            android:label="@string/title_activity_customer_view_booking" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CustomerPaymentDetailsActivity"
+            android:label="@string/title_activity_customer_payment_details" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CustomerCabBooking1Activity"
+            android:label="@string/title_activity_customer_cab_booking1" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CustomerCabBooking2Activity"
+            android:label="@string/title_activity_customer_cab_booking2" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CustomerCabBookingFinalActivity"
+            android:label="@string/title_activity_customer_cab_booking_final" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CabViewBookingActivity"
+            android:label="@string/title_activity_cab_view_booking" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CabViewBooking1Activity"
+            android:label="@string/title_activity_cab_view_booking1" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CabClosingActivity"
+            android:label="@string/title_activity_cab_closing" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CabClosing1Activity"
+            android:label="@string/title_activity_cab_closing1" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CabPaymentDetailsActivity"
+            android:label="@string/title_activity_cab_payment_details" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CabViewFeedbackActivity"
+            android:label="@string/title_activity_cab_view_feedback" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CabChangePasswordActivity"
+            android:label="@string/title_activity_cab_change_password" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CustomerSendFeedbackActivity"
+            android:label="@string/title_activity_customer_send_feedback" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CustomerChangePasswordActivity"
+            android:label="@string/title_activity_customer_change_password" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CustomerSendFeedback1Activity"
+            android:label="@string/title_activity_customer_send_feedback1" >
+        </activity>
+        <activity
+            android:name="com.example.cabbooking.CabViewFeedback1Activity"
+            android:label="@string/title_activity_cab_view_feedback1" >
+        </activity>
+    </application>
+
+</manifest>

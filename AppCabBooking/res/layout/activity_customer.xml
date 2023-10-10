@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CustomerActivity"
+    android:background="@drawable/bg3" >
+    
+    <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="142dp"
+         android:layout_height="142dp"
+         android:layout_gravity="center"
+         android:layout_marginTop="25dp"
+         android:src="@drawable/user" />
+
+    <EditText
+        android:id="@+id/cno"
+        android:layout_width="225dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#f9f9f7"
+        android:hint="Enter Contact No"
+        android:inputType="number"
+        android:maxLength="10"
+        android:paddingLeft="5dp"
+        android:textColor="#990000"
+        android:textStyle="bold" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/lpass"
+        android:layout_width="225dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#f9f9f7"
+        android:textColor="#990000"
+        android:paddingLeft="5dp"
+        android:inputType="textPassword"       
+        android:textStyle="bold"
+        android:hint="Enter Password"   />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#efef26"
+        android:text="Signin"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#efef26"
+        android:text="Signup"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/back"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

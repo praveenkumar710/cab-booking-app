@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CustomerCabBooking2Activity"
+    android:background="@drawable/bg4"
+    android:layout_gravity="center" >
+    
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:text="REVIEW BOOKING DETAILS"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="250dp"
+         android:layout_height="25dp"
+         android:text="Pick Up From:"
+         android:textSize="14sp"
+         android:textStyle="bold"
+         android:layout_gravity="center"
+         android:layout_marginTop="15dp" />
+
+     <EditText
+         android:id="@+id/et1"
+         android:layout_width="250dp"
+         android:layout_height="30dp"
+         android:layout_gravity="center"
+         android:layout_marginTop="15dp"
+         android:ems="10"
+         android:inputType="text"
+         android:textSize="14sp"
+         android:textStyle="bold"
+         android:enabled="false"
+         android:textColor="#ffffff">
+
+         <requestFocus />
+     </EditText>
+     
+      <TextView
+         android:id="@+id/textView3"
+         android:layout_width="250dp"
+         android:layout_height="25dp"
+         android:text="Pick Up Date:"
+         android:textSize="14sp"
+         android:textStyle="bold"
+         android:layout_gravity="center"
+         android:layout_marginTop="15dp" />
+
+     <EditText
+         android:id="@+id/et2"
+         android:layout_width="250dp"
+         android:layout_height="30dp"
+         android:textSize="14sp"
+         android:textStyle="bold"
+         android:layout_gravity="center"
+         android:layout_marginTop="15dp"
+         android:ems="10"
+         android:inputType="date"
+         android:enabled="false"
+         android:textColor="#ffffff">
+
+         <requestFocus />
+     </EditText>
+     
+      <TextView
+         android:id="@+id/textView4"
+         android:layout_width="250dp"
+         android:layout_height="25dp"
+         android:text="Pick Up Time:"
+         android:textSize="14sp"
+         android:textStyle="bold"
+         android:layout_gravity="center"
+         android:layout_marginTop="15dp" />
+
+     <EditText
+         android:id="@+id/et3"
+         android:layout_width="250dp"
+         android:layout_height="30dp"
+         android:layout_gravity="center"
+         android:layout_marginTop="15dp"
+         android:ems="10"
+         android:inputType="time"
+         android:textSize="14sp"
+         android:textStyle="bold"
+         android:enabled="false"
+         android:textColor="#ffffff" >
+
+         <requestFocus />
+     </EditText>
+     
+     <Button
+        android:id="@+id/btn1"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#efef26"
+        android:text="Confirm Booking"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+</LinearLayout>
